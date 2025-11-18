@@ -1,0 +1,16 @@
+# Battleship Game - Requirements
+# Python 3.8 or higher required
+
+# GUI framework for the game interface
+PyQt6==6.6.1
+
+# The following libraries are built into Python (no installation needed):
+# - sqlite3 (for game statistics database)
+# - random (for AI ship placement and moves)
+# - datetime (for game timestamps in database)
+# - enum (for GameState enum)
+# - sys (for application execution)
+
+# Database:
+# SQLite3 database will be automatically created as 'battleship.db'
+# Contains table 'results' with game outcomes and timestamps
